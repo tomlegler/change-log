@@ -1,0 +1,38 @@
+/* FILEPATH: /home/user/devspace/Github-tests/styles.css */
+
+/* Styling for a hero section */
+#hero {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Styling for a call-to-action section */
+#cta {
+    background-color: #ff5a5f;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Styling for a feature section */
+#features {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Styling for a testimonial section */
+#testimonial {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Styling for a footer section */
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
