@@ -1,12 +1,16 @@
 name: Release Please
+
 on:
   push:
     branches:
-      - master
+      - main
+
 jobs:
   release-please:
     runs-on: ubuntu-latest
     steps:
-      - uses: GoogleCloudPlatform/release-please-action@v2
-      with:
-        release-type: node
+      - uses: google-github-actions/release-please-action@v2.3.1
+        with:
+          release-type: "node"
+          package-name: "my-package"
+          github-token: ${{ secrets.GITHUB_TOKEN }
