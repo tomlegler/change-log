@@ -8,6 +8,159 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modi Changelog</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Reset default styles */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+font-family: Arial, sans-serif;
+background-color: #f2f2f2;
+color: #333;
+}
+
+/* Header styles */
+header {
+background-color: #333;
+padding: 20px;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+justify-content: center;
+}
+
+nav ul li {
+margin-right: 20px;
+}
+
+nav ul li a {
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+}
+
+/* Main styles */
+main {
+padding: 20px;
+}
+
+#hero {
+text-align: center;
+padding: 50px 0;
+background-color: #fff;
+}
+
+#hero h1 {
+font-size: 36px;
+margin-bottom: 20px;
+}
+
+#hero p {
+font-size: 18px;
+margin-bottom: 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 10px 20px;
+background-color: #333;
+color: #fff;
+text-decoration: none;
+border-radius: 5px;
+}
+
+#about {
+margin-top: 50px;
+}
+
+#about h2 {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+#about p {
+font-size: 16px;
+line-height: 1.5;
+}
+
+#services {
+margin-top: 50px;
+}
+
+#services h2 {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+#services ul {
+list-style: none;
+}
+
+#services li {
+font-size: 16px;
+margin-bottom: 10px;
+}
+
+#contact {
+margin-top: 50px;
+}
+
+#contact h2 {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+form input,
+form textarea,
+form button {
+display: block;
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+}
+
+form button {
+background-color: #333;
+color: #fff;
+border: none;
+cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+background-color: #333;
+padding: 20px;
+text-align: center;
+color: #fff;
+}
+        /* Patch Notes styles */
+        #patch-notes {
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        #patch-notes h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        #patch-notes ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        #patch-notes li {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -29,8 +182,10 @@
         </section>
 
         <section id="about">
-            <h2>Updates</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis.</p>
+            <h2>Engineering Notes</h2>
+            <p>CDR Scheduled for March 3rd.</p>
+            <p>PTO Schedule: Thomas on vacation for next 6 months
+            </p>
         </section>
 
         <section id="services">
@@ -42,171 +197,8 @@
             </ul>
         </section>
 
-        <section id="contact">
-            <h2>Updates</h2>
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Modi Changelog</title>
-            <link rel="stylesheet" href="styles.css">
-            <style>
-                /* Reset default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body styles */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    color: #333;
-}
-
-/* Header styles */
-header {
-    background-color: #333;
-    padding: 20px;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* Main styles */
-main {
-    padding: 20px;
-}
-
-#hero {
-    text-align: center;
-    padding: 50px 0;
-    background-color: #fff;
-}
-
-#hero h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-#hero p {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-#about {
-    margin-top: 50px;
-}
-
-#about h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-#about p {
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-#services {
-    margin-top: 50px;
-}
-
-#services h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-#services ul {
-    list-style: none;
-}
-
-#services li {
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-#contact {
-    margin-top: 50px;
-}
-
-#contact h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-form input,
-form textarea,
-form button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-
-form button {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-/* Footer styles */
-footer {
-    background-color: #333;
-    padding: 20px;
-    text-align: center;
-    color: #fff;
-}
-                /* Patch Notes styles */
-                #patch-notes {
-                    background-color: #f2f2f2;
-                    padding: 20px;
-                    border-radius: 5px;
-                }
-
-                #patch-notes h2 {
-                    font-size: 24px;
-                    margin-bottom: 20px;
-                }
-
-                #patch-notes ul {
-                    list-style-type: disc;
-                    margin-left: 20px;
-                }
-
-                #patch-notes li {
-                    margin-bottom: 10px;
-                }
-            </style>
-
-
-                <section id="Engineering Notes">
+        <section id="contact">  
+                <section id="Updates">
                     <h2>Updates</h2>
                     
                 </section>
@@ -221,7 +213,6 @@ footer {
                 </section>
 
                 <section id="contact">
-                    <h2>Updates</h2>
                     <section id="patch-notes">
                         <h2>Patch Notes - Latest Release</h2>
                         <ul>
@@ -238,7 +229,6 @@ footer {
                         </ul>
                     </section>
                 </section>
-            </main>
 
         </section>
     </main>
