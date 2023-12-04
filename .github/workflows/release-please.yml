@@ -13,4 +13,4 @@ jobs:
         with:
           release-type: "node"
           package-name: "my-package"
-          github-token: ${{ secrets.GITHUB_TOKEN }
+          github-token: ${{ secrets.GITHUB_TOKEN }}
